@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Acesse agorao nosso site e proveite...">
+    <meta name="keywords" content="Br studios 77,157 brasil,jogos,pocket code,gta">
+    <meta name="author" content="Luis Ryan">
+    <style>
+        body {    
+            font-familiy: sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: blue;
+        }
+        h2 {
+            color: red;
+            
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .menu {
+            background-color: blue;
+            overflow: hidden;
+        }
+        
+        .menu a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        
+        .menu a:hover {
+            background-color: darkblue;
+            color: white;
+        }
+        
+        .menu .icon {
+            display: none;
+        }
+        
+        #services {
+            color: black; /* Alterado para preto */
+        }
+        
+        #services a {
+            color: yellow; /* Adicionado para alterar a cor do link */
+        }
+        
+        #contact {
+            color: black; /* Alterado para preto */
+        }
+        
+        #contact a {
+            color: green; /* Adicionado para alterar a cor do link */
+        }
+        
+        .game-name {
+            color: yellow; /* Alterado para amarelo */
+        }
+        
+        .report-link {
+            color: #FF000000; /* Alterado para verde */
+        }
+        
+        @media screen and (max-width: 600px) {
+            .menu a:not(:first-child) {display: none;}
+            .menu a.icon {
+                float: right;
+                display: block;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .menu.responsive {
+              position: relative;
+            }
+            .menu.responsive .icon {
+              position: absolute;
+              right: 0;
+              top: 0;
+            }
+            .menu.responsive a {
+              float: none;
+              display: block;
+              text-align: left;
+            }
+        }
+        
+        .content {
+            padding: 20px;
+            color: white;
+        }
+        
+        .footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        #redes {
+            color: Black;
+            
+        }
+        
+        a:link {
+            text-decoration: none;
+            color: black;
+        }
+        
+        #home {
+            color: black; /* Alterado para preto */
+        }
+        
+        #about {
+            color: black; /* Alterado para preto */
+        }
+        .hito {
+            color: orange;
+        }
+    </style>
+    <title>Br studios 77</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1><h1> <i>BR STUDIOS <span class="hito"style="color:red;">7</span><span class="hito"style="color:blue;">7</span></i> </h1></h1>
+            
+        </div>
+
+        <div class="menu" id="myMenu">
+            <a href="#home">INÍCIO</a>
+            <a href="#about">HISTÓRIA</a>
+            <a href="#services">JOGOS</a>
+            <a href="#contact">SUPORTE</a>
+            <a href="#redes">REDES SOCIAIS</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+
+        <div class="content">
+            <h2 id="home">INÍCIO</h2>
+            <p>Bem vindo(a) nosso site❤</p>
+            
+            <h2 id="about">HISTÓRIA</h2>
+            <p>Somos uma equipe especializada em criação de jogos 2D e 2.5D.<br><a href="história.html"><span class="hito"style="color:orange;">Nossa História</span></a><-CLIQUE AQUI</p>
+            
+            <h2 id="services">JOGOS</h2>
+            <p>Atualmente estamos trabalhando em um jogo chamado <a href="jogos.html"><span class="game-name" style="color:yellow;">157 BRASIL🇧🇷.</span>.</a><-CLIQUE AQUI</p>
+            
+            <h2 id="contact">SUPORTE</h2>
+            <p>Achou algum bug em nosso site ou em nossos jogos ?<a href="suporte.html"><span class="report-link" style="color:green;"> REPORTE AQUI.</span></a><-CLIQUE AQUI</p>
+        
+        <h2 id="redes">REDES SOCIAIS</h2>
+        <p>Gostou do nosso projeto nos siga nas outras redes sociais !!<a href="redes.html"><span class="redes sociais"style="color:red"> CLIQUE AQUI</span></a></p>
+</div>
+        <div class="footer">
+         <p>&COPY; 2023 <i>BR STUDIOS <span class="hito"style="color:red;">7</span><span class="hito"style="color:blue;">7</span></i>. TODOS OS DIREITOS RESERVADOS.</p>
+        </div>
+    </div>
+
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myMenu");
+            if (x.className === "menu") {
+                x.className += " responsive";
+            } else {
+                x.className = "menu";
+            }
+        }
+    </script>
+</body>
+</html>
